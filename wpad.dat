@@ -1,1 +1,10 @@
-sdfgsdfg
+function FindProxyForURL(url, host) {
+    if (host == "baltbet.com") {
+        return "PROXY pr1.baltbet.ru:12321";
+    } else
+    if (host == "www.baltbet.com") {
+        return "PROXY pr1.baltbet.ru:12321";
+    } else {
+        return "DIRECT";
+    }
+}
