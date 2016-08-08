@@ -1,8 +1,5 @@
 function FindProxyForURL(url, host) {
-    if (host == "baltbet.com") {
-        return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321";
-    } else
-    if (host == "www.baltbet.com") {
+    if (host == "*baltbet.com") {
         return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321";
     } else {
         return "DIRECT";
