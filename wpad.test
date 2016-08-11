@@ -1,15 +1,15 @@
 function FindProxyForURL(url, host) {
     if (host == "www.baltbet.com") {
-        return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321";
+        return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:80";
     } else
     if (host == "baltbet.com") {
-        return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321";
+        return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:80";
     } else 
     if (host == "pda.baltbet.com") {
-        return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321";
+        return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:80";
     } else 
     if (host == "m.baltbet.com") {
-        return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321";
+        return "PROXY 1.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:12321; PROXY 2.bb-proxy.xyz:80";
     } else {
         return "DIRECT";
     }
